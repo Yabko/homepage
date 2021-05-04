@@ -514,8 +514,9 @@ article {
 
 /* Avatar */
 .avatar-wrapper {
-  padding: 0 1em;
+  padding: 1.4rem 0;
   display: flex;
+  height: auto;
   align-items: center;
   justify-content: center;
 }
@@ -525,10 +526,11 @@ article {
   flex: 1 0 auto;
   max-width: 15rem;
   width: 100%;
+  
 }
 @media only screen and (max-width: 1199px) {
   .avatar-wrapper {
-    padding: 0;
+    padding: 2em 0 0 0;
   }
 }
 

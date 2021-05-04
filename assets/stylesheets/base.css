@@ -619,6 +619,9 @@ article {
 .contacts li a.telegram:hover {
   color: #08c;
 }
+.contacts li a.stackoverflow:hover{
+  color: chocolate;
+}
 .contacts li a.phone:hover {
   color: dimgrey;
 }
